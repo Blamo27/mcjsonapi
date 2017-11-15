@@ -42,7 +42,7 @@ const manager = {
 	 * @return {[Any]}  	Returns result of mapping
 	 */
 	mapInstances(cb) {
-			return Object.entries(this.instances).map(e => cb(...e))
+		return Object.entries(this.instances).map(e => cb(...e))
 	}
 }
 

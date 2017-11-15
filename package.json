@@ -4,7 +4,8 @@
 	"description": "Control and monitor your Minecraft server with JSONAPI",
 	"main": "index.js",
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"prepublish":"npm test"
 	},
 	"repository": "https://github.com/Nicholaiii/mcjsonapi",
 	"keywords": [
