@@ -1,11 +1,11 @@
 {
 	"name": "mcjsonapi",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Control and monitor your Minecraft server with JSONAPI",
 	"main": "index.js",
 	"scripts": {
 		"test": "xo && ava",
-		"prepublish":"npm test"
+		"prepublish": "npm test"
 	},
 	"repository": "https://github.com/Nicholaiii/mcjsonapi",
 	"keywords": [
