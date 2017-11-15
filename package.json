@@ -1,0 +1,46 @@
+{
+	"name": "mcjsonapi",
+	"version": "0.0.1",
+	"description": "Control and monitor your Minecraft server with JSONAPI",
+	"main": "index.js",
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"repository": "https://github.com/Nicholaiii/mcjsonapi",
+	"keywords": [
+		"minecraft",
+		"mc",
+		"async",
+		"await",
+		"promise",
+		"json",
+		"jsonapi",
+		"server",
+		"jsonapi"
+	],
+	"author": "Nicholai Nissen",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.16.2"
+	},
+	"devDependencies": {
+		"ava": "^0.22.0",
+		"should": "^13.0.1",
+		"xo": "^0.18.2"
+	},
+	"xo": {
+		"semicolon": false,
+		"ignores": [
+			"tests/*"
+		]
+	},
+	"ava": {
+		"failWithoutAssertions": false,
+		"files": [
+			"tests/*.test.js"
+		],
+		"require": [
+			"should"
+		]
+	}
+}

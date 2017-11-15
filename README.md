@@ -1,2 +1,11 @@
 # mcjsonapi
-Node module for interfacing Minecraft JSONAPI
+Control and monitor your Minecraft server with JSONAPI
+
+Very incomplete as of now. Stay tuned.
+
+### TODO:
+```
+Helpers
+Performance stream
+Ramda?
+```
