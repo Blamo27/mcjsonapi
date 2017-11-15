@@ -1,6 +1,6 @@
 {
 	"name": "mcjsonapi",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Control and monitor your Minecraft server with JSONAPI",
 	"main": "index.js",
 	"scripts": {
